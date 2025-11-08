@@ -1,5 +1,5 @@
-import IconExperiment from "@/assests/icons/IconExperiment";
-import IconHome from "@/assests/icons/IconHome";
+import IconExperiment from "@/assets/icons/IconExperiment";
+import IconHome from "@/assets/icons/IconHome";
 import ComponentButton from "@/components/ComponentButton";
 import { Outlet } from "react-router";
 
