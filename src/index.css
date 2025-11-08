@@ -1,1 +1,18 @@
 @import "tailwindcss";
+
+@theme {
+  --color-gray-01: #302e2d;
+  --color-white-01: #f7f7f5;
+  --color-yellow-01: #fccc46;
+  --color-blue-01: #5985e1;
+  --color-black-01: #1c1c1a;
+}
+
+@layer utilities {
+  .scrollbar-hide {
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    scrollbar-width: none;
+  }
+}
