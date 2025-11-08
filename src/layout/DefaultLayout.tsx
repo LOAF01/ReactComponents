@@ -9,10 +9,10 @@ const DefaultLayout = () => {
       {/* menu */}
       <div className="w-10 h-full py-8 overflow-y-auto scrollbar-hide">
         <div className="flex flex-col gap-2">
-          <ComponentButton>
+          <ComponentButton path="/">
             <IconHome />
           </ComponentButton>
-          <ComponentButton>
+          <ComponentButton path="/test">
             <IconExperiment />
           </ComponentButton>
         </div>
