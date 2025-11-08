@@ -21,7 +21,7 @@ const ComponentButton = ({
   };
   return (
     <button
-      className={`flex justify-center  rounded-xl cursor-pointer
+      className={`flex justify-center rounded-xl cursor-pointer
         ${isActive ? "bg-yellow-01" : "hover:bg-yellow-01"}
         ${className}`}
       onClick={handleClick}
