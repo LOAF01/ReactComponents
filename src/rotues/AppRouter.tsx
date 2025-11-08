@@ -1,11 +1,16 @@
 import { Route, Routes } from "react-router";
-import App from "@/App";
+import Home from "@/pages/Home";
+import DefaultLayout from "@/layout/DefaultLayout";
+import Test from "@/pages/Test";
 
 const AppRouter = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route element={<DefaultLayout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="/test" element={<Test />} />
+        </Route>
       </Routes>
     </>
   );
