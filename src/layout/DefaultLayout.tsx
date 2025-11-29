@@ -23,7 +23,7 @@ const DefaultLayout = () => {
       </div>
 
       {/* screen */}
-      <main className="h-full w-full flex justify-center items-center bg-white-01 rounded-[34px]">
+      <main className="h-full w-full flex flex-col items-center bg-white-01 rounded-[34px] p-10 gap-3">
         <Outlet />
       </main>
     </div>
