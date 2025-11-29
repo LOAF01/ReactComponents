@@ -1,4 +1,5 @@
 import IconExperiment from "@/assets/icons/IconExperiment";
+import IconFarsightDigital from "@/assets/icons/IconFarsightDigital";
 import IconHome from "@/assets/icons/IconHome";
 import ComponentButton from "@/components/ComponentButton";
 import { Outlet } from "react-router";
@@ -14,6 +15,9 @@ const DefaultLayout = () => {
           </ComponentButton>
           <ComponentButton path="/test">
             <IconExperiment />
+          </ComponentButton>
+          <ComponentButton path="/ios-picker">
+            <IconFarsightDigital />
           </ComponentButton>
         </div>
       </div>
