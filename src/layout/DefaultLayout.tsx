@@ -6,7 +6,7 @@ import { Outlet } from "react-router";
 
 const DefaultLayout = () => {
   return (
-    <div className="h-screen w-screen flex justify-center items-center gap-4 p-4 bg-gray-01">
+    <div className="h-screen w-screen flex justify-center items-start gap-4 p-4 bg-gray-01">
       {/* menu */}
       <div className="w-10 h-full py-8 overflow-y-auto scrollbar-hide">
         <div className="flex flex-col gap-2">
@@ -23,7 +23,7 @@ const DefaultLayout = () => {
       </div>
 
       {/* screen */}
-      <main className="h-full w-full flex flex-col items-center bg-white-01 rounded-[34px] p-10 gap-3">
+      <main className="h-full w-full flex flex-col items-center bg-white-01 rounded-[34px] p-10 gap-3 overflow-y-auto scrollbar-hide">
         <Outlet />
       </main>
     </div>
